@@ -170,6 +170,40 @@ header {
     margin-bottom: 80px;
 }
 
+.services-item::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/section-img.jpg");
+    background-size: cover;
+}
+
+.services-item:nth-child(2)::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/Manual.jpg");
+    background-size: cover;
+}
+.services-item:nth-child(3)::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/zuluk.jpg");
+    background-size: cover;
+}
+.services-item4::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/Tabiy.jpg");
+    background-size: cover;
+}
+
 .services-item4 {
     width: 864px;
     display: flex;
